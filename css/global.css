@@ -1,0 +1,139 @@
+p.monospace {font-family: "monospace", courier new}
+
+p  {
+    margin-right: 4cm;
+}
+
+p.one:hover + img{
+   display: block;
+}
+
+p.two:hover img{ 
+   display: block;
+}
+
+a {font-family: "monospace", courier new}
+
+
+a:link {
+	color: pink; 
+	text-decoration: none; 
+	}
+
+a:visited {
+	color: black; 
+	text-decoration: line-through;
+	}
+
+a:hover {
+	color: red; 
+	background-color: #00F;
+	text-decoration: none;
+	}
+
+a:active { 
+	color: #FFF; 
+	text-decoration: none; }
+
+
+img {
+	margin: 0;
+	border: none;
+	padding: 0; }
+
+
+// red
+
+.red {
+	color: #F00; }
+
+.red a:link {
+	color: #F00; 
+	text-decoration: none; }
+
+.red a:visited {
+	color: red; }
+
+.red a:hover {
+	color: pink; 
+	background-color: #F00;
+	text-decoration: none; }
+
+.red a:active { 
+	color: #F00; 
+	text-decoration: none; }
+	
+
+
+// red-hi
+
+.red-hi {
+	color: pink;
+	background-color: #F00;
+	text-decoration: none;}
+
+.red-hi a:link {
+	color: #FF0;
+	background-color: #F00; 
+	text-decoration: none;}
+
+.red-hi a:visited {
+	color: ghostwhite;
+    background-color: #333333; 
+	text-decoration: none;}
+
+.red-hi a:hover {
+	color: #FFF;
+	background-color: #333333;
+	text-decoration: none;}
+
+.red-hi a:active { 
+	color: #FFF; 
+	text-decoration: none;}
+	
+	
+	
+	
+// event
+
+.event {
+	color: yellow; }
+
+.event a:link {
+	color: yellow; }
+
+.event a:visited {
+	color: darkseagreen; }
+
+.event a:hover {
+	color: pink; 
+	background-color: yellow;}
+
+.event a:active { 
+	color: #FFF; }	
+
+
+// green 
+
+.green {
+	color: darkseagreen;
+	background-color: none;
+	text-decoration: none;}
+
+.green a:link {
+	color: darkseagreen;
+	background-color: none; 
+	text-decoration: none;}
+
+.green a:visited {
+	color: pink;}
+
+.green a:hover {
+	color: pink;
+	background-color: darkseagreen;
+	text-decoration: none;}
+
+.green a:active { 
+	color: #FFF; 
+	text-decoration: none;}
+
