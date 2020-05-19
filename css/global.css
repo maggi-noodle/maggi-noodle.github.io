@@ -43,15 +43,15 @@ img {
 	color: #F00; }
 
 .red a:link {
-	color: #F00; 
+	color: #ff9933; 
 	text-decoration: none; }
 
 .red a:visited {
-	color: red; }
+	color: #ff9933; }
 
 .red a:hover {
 	color: pink; 
-	background-color: #F00;
+	background-color: #ff9933;
 	text-decoration: none; }
 
 .red a:active { 
