@@ -1,6 +1,6 @@
-p.monospace {font-family: "monospace", courier new}
+.monospace {font-family: "monospace", Monaco}
 
-p  {
+  {
     margin-right: 4cm;
 }
 
@@ -12,7 +12,7 @@ p.two:hover img{
    display: block;
 }
 
-a {font-family: "monospace", courier new}
+a {font-family: "monospace", Monaco}
 
 a:link {
 	color: pink; 
@@ -20,13 +20,13 @@ a:link {
 	}
 
 a:visited {
-	color: white; 
+	color: pink; 
 	text-decoration: line-through;
 	}
 
 a:hover {
-	color: red; 
-	background-color: #00F;
+	color: pink; 
+	background-color: none;
 	text-decoration: none;
 	}
 
@@ -40,7 +40,12 @@ img {
 	padding: 0; }
 
 .red {
-	color: #F00; }
+    color: #ff9933;
+    font-family: "monospace", Monaco;
+    text-decoration: none;}
+.red a:{
+	color: #F00;
+}
 
 .red a:link {
 	color: #ff9933; 
@@ -51,7 +56,7 @@ img {
 
 .red a:hover {
 	color: pink; 
-	background-color: #ff9933;
+	background-color: none;
 	text-decoration: none; }
 
 .red a:active { 
@@ -104,9 +109,8 @@ img {
 	color: #FFF; }	
 
 
-// green 
-
 .green {
+    font-family: "monospace", Monaco;
 	color: darkseagreen;
 	background-color: none;
 	text-decoration: none;}
@@ -117,58 +121,36 @@ img {
 	text-decoration: none;}
 
 .green a:visited {
-	color: pink;}
+	color: darkseagreen;}
 
 .green a:hover {
-	color: pink;
-	background-color: darkseagreen;
+	color: darkseagreen;
+	background-color: none;
 	text-decoration: none;}
 
 .green a:active { 
-	color: #FFF; 
+	color: darkseagreen; 
 	text-decoration: none;}
 
-.blu {
-	color: #ffff99; }
+.blue {
+    font-family: "monospace", Monaco;
+	color: #ffff99; 
+	text-decoration: none;}
 
 .blue a:link {
+    font-family: "monospace", Monaco;
 	color: #ffff99; 
-	text-decoration: none; }
+	text-decoration: none;}
 
-.blu a:visited {
+.blue a:visited {
+    font-family: "monospace", Monaco;
 	color: #ffff99; }
 
-.blu a:hover {
+.blue a:hover {
 	color: #ffff99; 
 	text-decoration: none; }
 
-.blu a:active { 
+.blue a:active { 
 	color: #ffff99; 
 	text-decoration: none; }	
 
-span.a {
-  display: inline; /* the default for span */
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  border: 1px solid blue;  
-  background-color: yellow; 
-}
-
-span.b {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  border: 1px solid blue;    
-  background-color: yellow; 
-}
-
-span.c {
-  display: block;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  border: 1px solid blue;    
-  background-color: yellow; 
-}
