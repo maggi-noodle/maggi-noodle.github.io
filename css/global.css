@@ -136,25 +136,25 @@ img {
 	color: darkseagreen; 
 	text-decoration: none;}
 
-.blue {
+.blu {
     font-family: "monospace", Monaco;
 	color: #ffff99; 
 	text-decoration: none;}
 
-.blue a:link {
+.blu a:link {
     font-family: "monospace", Monaco;
 	color: #ffff99; 
 	text-decoration: none;}
 
-.blue a:visited {
+.blu a:visited {
     font-family: "monospace", Monaco;
 	color: #ffff99; }
 
-.blue a:hover {
+.blu a:hover {
 	color: #ffff99; 
 	text-decoration: none; }
 
-.blue a:active { 
+.blu a:active { 
 	color: #ffff99; 
 	text-decoration: none; }	
 
